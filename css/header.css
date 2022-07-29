@@ -1,0 +1,31 @@
+.header{
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 80px;
+  z-index: 6;
+}
+
+.header-links{
+  padding-left: 400px;
+  padding-right: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header-links p{
+  color: white;
+  text-transform: capitalize;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.header-links-picture{
+  height: 80px;
+  mix-blend-mode: screen;
+}
