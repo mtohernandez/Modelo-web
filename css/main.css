@@ -44,4 +44,23 @@
   color: white;
   font-weight: 600;
   border: 0;
+  transition: border .15s, background-color .15s;
+}
+
+.main-page-call-button:hover{
+  border: 1px solid rgba(250, 255, 0, 0.2);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.main-page-text-description{
+  position: absolute;
+  left: 35%;
+  width: 600px;
+  bottom: 50px;
+  text-align: center;
+}
+
+.main-page-text-description-item{
+  color: white;
 }

@@ -29,3 +29,12 @@
   height: 80px;
   mix-blend-mode: screen;
 }
+
+.header-links-item{
+  transition: color .15s;
+}
+
+.header-links-item:hover{
+  cursor: pointer;
+  color: yellow;
+}
