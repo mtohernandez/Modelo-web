@@ -1,0 +1,59 @@
+.background_aloy{
+    /* Rectangle 3 */
+	
+    position: absolute;
+    width: 1796px;
+    height: 1122px;
+    left: -34px;
+    top: 1057px;
+
+    background: #000000;
+}
+.green_Background{
+    /* Rectangle 6 */
+    position: absolute;
+    width: 1498px;
+    height: 922px;
+    left: 104px;
+    top: 1153px;
+
+    background: linear-gradient(180deg, #2AA07D 0%, rgba(3, 224, 158, 0.38) 100%);
+}
+.title{
+    /* Aloy */
+    position: absolute;
+    width: 148px;
+    height: 78px;
+    left: 863px;
+    top: 1317px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.body{
+    /* The main protagonist of Horizon Zero Dawn and Horizon Forbidden West. A Nora Brave, Seeker and machine hunter of unparalleled skill, Aloy is the genetic clone of 21st century roboticist and engineer Dr. Elisabet Sobeck. She was created by GAIA, the governing artificial intelligence of Project Zero Dawn, a global terraforming system that Sobeck had designed and whose implementation she had spearheaded, which restored life to Earth after its eradication by the Faro Plague. GAIA created Aloy for the purpose of stopping HADES, a rogue AI bent on reactivating the Faro Plague in order to wipe out life again, and repair the AI itself, after it self-destructed in an attempt to destroy the rogue AI. Aloy succeeded, saving life on Earth and the humans of the new world that Zero Dawn created. In doing so, she unraveled the mysteries of why the world became as it is, and also learned the true nature of her origins. */
+
+
+    position: absolute;
+    width: 615px;
+    height: 280px;
+    left: 863px;
+    top: 1422px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
