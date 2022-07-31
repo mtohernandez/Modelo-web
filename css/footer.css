@@ -1,0 +1,34 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  z-index: 4;
+  background-color: black;
+}
+
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin-left: 50px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+.footer-list-h1{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-list-item{
+  color: white;
+}
+
+.footer-list-item:hover{
+  color: yellow;
+  cursor: pointer;
+}
+
+.footer-list-picture img{
+  width: 600px;
+}
