@@ -1,11 +1,14 @@
 .middle-page{
-    display: block;
+    display: flex;
     height: 800px;
+    justify-content: center;
+    position: relative;
 }
 .aloy-background{
     background: 
     color= black, linear-gradient(180deg, #2AA07D 0%, rgba(3, 224, 158, 0.38) 100%) center center / 800px 400px no-repeat, 
 }
+
 /*.green-background{
     display: block;
     left: 0;
@@ -16,9 +19,12 @@
     height: 400px;
 }
 */ 
+
 .title{
-    position: relative;
-    left: 200px;
+    margin-left: 300px;
+    margin-top: 100px;
+    display: flex;
+    left: 800px;
     top: 100px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -28,11 +34,12 @@
     text-align: center;
     color: #FFFFFF;
 }
-.pharagraph{    
+.pharagraph{   
+    margin-left: 300px; 
     display: flex;
-    position: relative;
+    justify-content: center;
     left: 600px;
-    top: 100px;
+    top: 250px;
     width: 500px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -42,40 +49,33 @@
     color: #FFFFFF;
     justify-content: right;
 }
-.aloy-background-content{
-    position: absolute;
-}
+
 .logo-horizon{
-    max-width: 15%;
-    max-height: 15%;
-    position: relative;
-    left: 450px;
-    top: -550px;
+    position: absolute;
+    width: 200px;
+    left: 39%;
+    top: 80%;
 }
 .logo-ps5{
-    max-width: 15%;
-    max-height: 15%;
-    position: relative;
-    left: 450px;
-    top: -550px;
+    position: absolute;
+    width: 200px;
+    left: 55%;
+    top: 80%;
+
 }
-.aloy-img{
-    
-    max-width: 45%;
-    max-height: 45%;
-    position: relative;
-    left: -500px;
-    top: -430px;
+.aloy-img{   
+    object-fit: cover;  
+    position: absolute; 
+    width: 500px;
+    left: 10%;
+    top: 50px;
 
 }
 .play-now{
-    
-    max-width: 15%;
-    max-height: 15%;
-    position: relative;
-    left: 610px;
-    top: -520px;
-    background: rgba(0, 255, 240, 0.2);
+    position: absolute;
+    object-fit: cover;
+    object-position: right; 
+    background: rgba(0, 255, 240, 0.2);    
     border-radius: 10px;
     text-transform: uppercase;
     padding: 10px 30px;
@@ -84,5 +84,13 @@
     font-weight: 600;
     border: 0;
     transition: border .15s, background-color .15s;
+    left: 850px;
+    top: 600px;
+    transition: border .15s, background-color .15s;
+}
 
+.play-now:hover{
+    cursor: pointer;
+    border: 1px solid rgba(0, 255, 240, 0.2);
+    background-color: transparent;
 }
